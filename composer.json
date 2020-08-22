@@ -1,0 +1,41 @@
+{
+    "name": "zhwei/laravel-autowire",
+    "description": "Laravel Autowire Kit",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "zhwei",
+            "email": "zhwei.yes@gmail.com"
+        }
+    ],
+    "require": {
+        "php": "^7.2",
+        "illuminate/support": "^6.0 || ^7.0",
+        "php-di/phpdoc-reader": "^2.1"
+    },
+    "autoload": {
+        "psr-4": {
+            "Zhwei\\LaravelAutowire\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Zhwei\\LaravelAutowireTests\\": "tests/"
+        }
+    },
+    "config": {
+        "sort-packages": true
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Zhwei\\LaravelAutowire\\AutowireServiceProvider"
+            ]
+        }
+    },
+    "require-dev": {
+        "laravel/laravel": "^7.25",
+        "phpunit/phpunit": "^9.3"
+    }
+}
