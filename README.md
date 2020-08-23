@@ -1,4 +1,9 @@
-# Laravel Autowire Kit
+# Laravel Autowire
+
+[![Latest Stable Version](https://poser.pugx.org/zhwei/laravel-autowire/version.png)](https://packagist.org/packages/zhwei/laravel-autowire)
+[![Total Downloads](https://poser.pugx.org/zhwei/laravel-autowire/d/total.png)](https://packagist.org/packages/zhwei/laravel-autowire)
+![tests](https://github.com/zhwei/laravel-autowire/workflows/tests/badge.svg)
+
 
 ## Usage
 
